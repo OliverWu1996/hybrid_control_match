@@ -288,3 +288,6 @@ TSWLatexianTemp*
 /.vscode/*
 *.pyc
 *.pyc
+
+build
+devel

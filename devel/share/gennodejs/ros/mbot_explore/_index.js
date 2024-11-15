@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/share/gennodejs/ros/mbot_explore/_index.js

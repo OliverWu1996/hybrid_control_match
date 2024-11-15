@@ -1,8 +1,1 @@
-
-"use strict";
-
-let PointArray = require('./PointArray.js');
-
-module.exports = {
-  PointArray: PointArray,
-};
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/share/gennodejs/ros/mbot_explore/msg/_index.js

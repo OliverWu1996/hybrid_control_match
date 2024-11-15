@@ -1,0 +1,6 @@
+devel_space: /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel
+install: false
+install_space: /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/install
+profile: default
+source_space: /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/src
+workspace: /home/wyy/META/COURSE/hybrid_control/hybrid_control_match

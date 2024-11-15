@@ -1,14 +1,1 @@
-# generated from catkin/cmake/template/pkgConfig-version.cmake.in
-set(PACKAGE_VERSION "0.0.0")
-
-set(PACKAGE_VERSION_EXACT False)
-set(PACKAGE_VERSION_COMPATIBLE False)
-
-if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
-  set(PACKAGE_VERSION_EXACT True)
-  set(PACKAGE_VERSION_COMPATIBLE True)
-endif()
-
-if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
-  set(PACKAGE_VERSION_COMPATIBLE True)
-endif()
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_navigation/share/mbot_navigation/cmake/mbot_navigationConfig-version.cmake

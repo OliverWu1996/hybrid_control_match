@@ -1,0 +1,8 @@
+mbot_recognition
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/cmake.lock /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/./cmake.lock
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/lib/mbot_recognition/move_to_target /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/lib/mbot_recognition/move_to_target
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/lib/mbot_recognition/gen_obj_gazebo.py /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/lib/mbot_recognition/gen_obj_gazebo.py
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/lib/mbot_recognition/cmake.lock /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/lib/mbot_recognition/cmake.lock
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/lib/pkgconfig/mbot_recognition.pc /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/lib/pkgconfig/mbot_recognition.pc
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/share/mbot_recognition/cmake/mbot_recognitionConfig.cmake /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/share/mbot_recognition/cmake/mbot_recognitionConfig.cmake
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition/share/mbot_recognition/cmake/mbot_recognitionConfig-version.cmake /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/share/mbot_recognition/cmake/mbot_recognitionConfig-version.cmake

@@ -1,8 +1,1 @@
-prefix=/home/cjf/hybrid_control_match/devel
-
-Name: mbot_explore
-Description: Description of mbot_explore
-Version: 1.0.0
-Cflags: -I/home/cjf/hybrid_control_match/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/lib/pkgconfig/mbot_explore.pc

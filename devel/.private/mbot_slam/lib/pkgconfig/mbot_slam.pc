@@ -1,0 +1,8 @@
+prefix=/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_slam
+
+Name: mbot_slam
+Description: Description of mbot_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,8 +1,1 @@
-prefix=/home/cjf/hybrid_control_match/devel
-
-Name: mbot_navigation
-Description: Description of mbot_navigation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_navigation/lib/pkgconfig/mbot_navigation.pc

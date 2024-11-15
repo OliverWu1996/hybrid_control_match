@@ -1,10 +1,1 @@
-
-(cl:in-package :asdf)
-
-(defsystem "mbot_explore-msg"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
-)
-  :components ((:file "_package")
-    (:file "PointArray" :depends-on ("_package_PointArray"))
-    (:file "_package_PointArray" :depends-on ("_package"))
-  ))
+/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/share/common-lisp/ros/mbot_explore/msg/mbot_explore-msg.asd

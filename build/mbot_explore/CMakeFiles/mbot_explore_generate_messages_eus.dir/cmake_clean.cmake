@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/share/roseus/ros/mbot_explore/manifest.l"
+  "/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/share/roseus/ros/mbot_explore/msg/PointArray.l"
   "CMakeFiles/mbot_explore_generate_messages_eus"
-  "/home/cjf/hybrid_control_match/devel/share/roseus/ros/mbot_explore/msg/PointArray.l"
-  "/home/cjf/hybrid_control_match/devel/share/roseus/ros/mbot_explore/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

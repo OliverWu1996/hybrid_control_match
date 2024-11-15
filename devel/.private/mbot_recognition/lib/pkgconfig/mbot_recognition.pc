@@ -1,0 +1,8 @@
+prefix=/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_recognition
+
+Name: mbot_recognition
+Description: Description of mbot_recognition
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
