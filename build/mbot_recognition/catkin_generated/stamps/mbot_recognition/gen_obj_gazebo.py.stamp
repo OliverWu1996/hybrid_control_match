@@ -110,7 +110,7 @@ class Env():
         for i in range(self.N_obj):
             if i in self.delete_list:
                 pass
-            elif (self.obj_pos_list[i][0] - point[0]) ** 2 + (self.obj_pos_list[i][0] - point[0]) ** 2 < L:
+            elif (self.obj_pos_list[i][0] - point[0]) ** 2 + (self.obj_pos_list[i][1] - point[1]) ** 2 < L:
                 return i
         return -1
 

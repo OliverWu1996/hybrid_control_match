@@ -69,7 +69,7 @@ void poseCallback(const geometry_msgs::PointStamped::ConstPtr& msg)
 		ROS_INFO("Going to target: x:%0.6f, y:%0.6f, z:%0.6f", msg->point.x, msg->point.y, msg->point.z);
 		act.waitForResult();
 
-		status_flag==STATUS_EXPLORING;
+		status_flag=STATUS_EXPLORING;
 	}
 }
 
