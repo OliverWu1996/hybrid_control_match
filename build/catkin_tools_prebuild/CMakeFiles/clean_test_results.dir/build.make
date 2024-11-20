@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/bui
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/hybrid_control/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/build/catkin_tools_prebuild/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/build/catkin_tools_prebuild/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make

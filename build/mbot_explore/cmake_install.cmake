@@ -153,7 +153,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/hybrid_control/bin/python3" -m compileall "/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/lib/python3/dist-packages/mbot_explore")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/devel/.private/mbot_explore/lib/python3/dist-packages/mbot_explore")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -76,7 +76,7 @@ class NavTest():
             # 如果已经走完了所有点，再重新开始排序  
             if i == n_locations:  
                 i = 0  
-                sequence = sample(locations, n_locations)  
+                sequence = sample(list(locations), n_locations)  
  
                 # 如果最后一个点和第一个点相同，则跳过  
                 if sequence[0] == last_location:  

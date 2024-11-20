@@ -1,4 +1,4 @@
-#!/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/hybrid_control/bin/python3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 # Software License Agreement (BSD License)

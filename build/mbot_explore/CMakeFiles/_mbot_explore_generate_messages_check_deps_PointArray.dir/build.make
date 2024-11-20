@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/bui
 include CMakeFiles/_mbot_explore_generate_messages_check_deps_PointArray.dir/progress.make
 
 CMakeFiles/_mbot_explore_generate_messages_check_deps_PointArray:
-	catkin_generated/env_cached.sh /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/hybrid_control/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mbot_explore /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/src/mbot_explore/msg/PointArray.msg geometry_msgs/Point
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mbot_explore /home/wyy/META/COURSE/hybrid_control/hybrid_control_match/src/mbot_explore/msg/PointArray.msg geometry_msgs/Point
 
 _mbot_explore_generate_messages_check_deps_PointArray: CMakeFiles/_mbot_explore_generate_messages_check_deps_PointArray
 _mbot_explore_generate_messages_check_deps_PointArray: CMakeFiles/_mbot_explore_generate_messages_check_deps_PointArray.dir/build.make

@@ -1,4 +1,4 @@
-#!/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/hybrid_control/bin/python3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
