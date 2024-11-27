@@ -20,7 +20,7 @@ typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseCl
 ros::Publisher vel_pub;
 ros::Publisher cmd_pub;
 
-int status_flag = STATUS_EXPLORING;
+int status_flag = STATUS_CLOSE_TARGET;
 
 // 接收到订阅的消息后，会进入消息回调函数
 void poseCallback(const geometry_msgs::PointStamped::ConstPtr& msg)
@@ -28,13 +28,14 @@ void poseCallback(const geometry_msgs::PointStamped::ConstPtr& msg)
     // 将接收到的消息打印出来
     ROS_INFO("Target pose: x:%0.6f, y:%0.6f, z:%0.6f", msg->point.x, msg->point.y, msg->point.z);
 
-	if(status_flag==STATUS_EXPLORING)
-	{
-		status_flag=STATUS_CLOSE_TARGET;
-		std_msgs::Int8 cmd;
-		cmd.data=STATUS_CLOSE_TARGET;
-		cmd_pub.publish(cmd);
-	}
+	// if(status_flag==STATUS_EXPLORING)
+	// {
+	// 	ROS_INFO("get pose information but in exploring mode");
+	// 	// status_flag=STATUS_CLOSE_TARGET;
+	// 	std_msgs::Int8 cmd;
+	// 	cmd.data=STATUS_EXPLORING;
+	// 	cmd_pub.publish(cmd);
+	// }
 	// else if(status_flag==STATUS_CLOSE_TARGET && msg->position.z > GET_TARGET_SIZE)
 	// {
 	// 	// status_flag=STATUS_GO_HOME;
@@ -48,7 +49,7 @@ void poseCallback(const geometry_msgs::PointStamped::ConstPtr& msg)
 	// 	cmd_pub.publish(cmd);
 
 	// }
-	else if(status_flag==STATUS_CLOSE_TARGET)	//通过Action机制向着目标点前进
+	if(msg->point.z < GET_TARGET_SIZE)	//通过Action机制向着目标点前进
 	{
 		// 创建Action client
 		MoveBaseClient act("move_base",true);
@@ -68,6 +69,7 @@ void poseCallback(const geometry_msgs::PointStamped::ConstPtr& msg)
 		act.sendGoal(goal);
 		ROS_INFO("Going to target: x:%0.6f, y:%0.6f, z:%0.6f", msg->point.x, msg->point.y, msg->point.z);
 		act.waitForResult();
+		ros::Duration(7.0).sleep();
 
 		status_flag=STATUS_EXPLORING;
 	}

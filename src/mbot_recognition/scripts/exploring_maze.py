@@ -61,7 +61,7 @@ class ExploringMaze():
               self.goal.target_pose.pose.position.x = random.uniform(-3,3)
               self.goal.target_pose.pose.position.y = random.uniform(-2.5,3.5)
           elif self.exploring_cmd is STATUS_CLOSE_TARGET:	# 视觉伺服
-            rospy.sleep(0.1)
+            rospy.sleep(1)
           elif self.exploring_cmd is STATUS_GO_HOME:	# 返航
                self.goal.target_pose.pose.position.x = 0
                self.goal.target_pose.pose.position.y = 0
@@ -73,7 +73,7 @@ class ExploringMaze():
           self.move_base.send_goal(self.goal)
 			
           # 五分钟时间限制
-          finished_within_time = self.move_base.wait_for_result(rospy.Duration(300))
+          finished_within_time = self.move_base.wait_for_result(rospy.Duration(60))
 
           # 查看是否成功到达
           if not finished_within_time:

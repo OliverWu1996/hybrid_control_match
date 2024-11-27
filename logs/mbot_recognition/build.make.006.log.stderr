@@ -1,0 +1,7 @@
+[01m[K/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/src/mbot_recognition/src/move_to_target.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/wyy/META/COURSE/hybrid_control/hybrid_control_match/src/mbot_recognition/src/move_to_target.cpp:52:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::PointStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kposition[m[K’
+   52 |  if(msg->[01;31m[Kposition[m[K.z < GET_TARGET_SIZE) //通过Action机制向着目标点前进
+      |          [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move_to_target.dir/build.make:63: CMakeFiles/move_to_target.dir/src/move_to_target.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/move_to_target.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
